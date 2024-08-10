@@ -2,7 +2,7 @@ import 'dotenv/config';
 
 export const config = {
   token: process.env.BOT_TOKEN,
-  default_prefix: 'b!',
+  prefix: 'b!',
   owners: ['Your ID'],
   presence: {
     status: 'online',
